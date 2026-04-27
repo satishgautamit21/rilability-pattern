@@ -27,7 +27,9 @@ function reverseSol2(str: string) {
 }
 
 // Poor solution 
-// Time complexity O(n^2)
+// Time complexity O(n^2) - 
+// first n is for slice method second n come from 
+// recursing n time on string
 // Space complexity O(n)
 function reverseSol3(str: string) {
     if(str.length<=1) return str;
